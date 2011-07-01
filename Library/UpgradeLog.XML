@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Recurly">
+</Property><Property Name="Solution File" Value="C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Recurly.sln">
+</Property><Property Name="Date" Value="01 July 2011">
+</Property><Property Name="Time" Value="13:11:40">
+</Property></Properties><Event ErrorLevel="0" Project="Recurly" Source="Recurly.csproj" Description="Project file successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\Recurly.csproj">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="InvalidCredentialsException.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\InvalidCredentialsException.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="NotFoundException.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\NotFoundException.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlyAccount.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlyAccount.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlyAccountCoupon.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlyAccountCoupon.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlyBillingInfo.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlyBillingInfo.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlyCharge.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlyCharge.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlyInvoiceList.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlyInvoiceList.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlyLineItemList.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlyLineItemList.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlyClient.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlyClient.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlyCredit.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlyCredit.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlyCreditCard.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlyCreditCard.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlyError.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlyError.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlyException.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlyException.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlyInvoice.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlyInvoice.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlyLineItem.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlyLineItem.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlyPlan.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlyPlan.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="Configuration\RecurlySection.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\Configuration\RecurlySection.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlyServerException.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlyServerException.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlySubscription.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlySubscription.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlyTransaction.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlyTransaction.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="RecurlyTransactionList.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\RecurlyTransactionList.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="TemporarilyUnavailableException.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\TemporarilyUnavailableException.cs">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="ValidationException.cs" Description="File successfully backed up as C:\Projects\ThirdParty\RecurlyFork\recurly-client-net\Library\Backup\ValidationException.cs">
+</Event><Event ErrorLevel="1" Project="Recurly" Source="Recurly.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="Recurly.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Recurly" Source="Recurly.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Recurly" Source="Recurly.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

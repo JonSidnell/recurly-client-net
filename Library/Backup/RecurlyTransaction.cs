@@ -10,7 +10,6 @@ namespace Recurly
     {
         public string Id { get; private set; }
         public int AmountInCents { get; private set; }
-        public string Description { get; private set; }
         public DateTime Date { get; private set; }
         public string Message { get; private set; }
         public string Status { get; private set; }
@@ -18,7 +17,6 @@ namespace Recurly
         public bool Voidable { get; private set; }
         public bool Refundable { get; private set; }
         public TransactionType Type { get; private set; }
-        public RecurlyAccount Account { get; private set; }
 
         public enum TransactionType : short
         {
@@ -37,19 +35,6 @@ namespace Recurly
         }
 
         private const string UrlPrefix = "/transactions/";
-
-        public static void Create(RecurlyAccount acct, int amountInCents, string description)
-        {
-            RecurlyTransaction toCreate = new RecurlyTransaction();
-
-            toCreate.Account = acct;
-            toCreate.AmountInCents = amountInCents;
-            toCreate.Description = description;
-
-            RecurlyClient.PerformRequest(RecurlyClient.HttpRequestMethod.Post,
-                UrlPrefix,
-                new RecurlyClient.WriteXmlDelegate(toCreate.WriteXml));
-        }
 
         public static RecurlyTransaction Get(string transactionId)
         {
@@ -137,19 +122,6 @@ namespace Recurly
                     }
                 }
             }
-        }
-
-        internal void WriteXml(XmlTextWriter xmlWriter)
-        {
-            xmlWriter.WriteStartElement("transaction");
-            
-            xmlWriter.WriteElementString("amount_in_cents", this.AmountInCents.ToString());
-
-            xmlWriter.WriteElementString("description", this.Description);
-
-            this.Account.WriteXml(xmlWriter);
-
-            xmlWriter.WriteEndElement();
         }
 
         #endregion
